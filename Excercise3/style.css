@@ -43,13 +43,17 @@ h1 {
 }
   
 .animation {
-    box-shadow: 0 3px 4px 0 #DBEDF3;
-    opacity: 0.5;
+    box-shadow: 0 0 10px #DA0463,
+                0 0 20px #DA0463,
+                0 0 40px #DA0463,
+                0 0 80px #DA0463,
+                0 0 100px #DA0463;
+    opacity: 1;
 }
   
-.button {
+.btn {
     outline: none;
-    border: 10px solid #404B69;
+    border: 10px solid #DA0463;
     font-size: 5rem;
     font-family: 'Arvo', cursive;
     line-height: 2;
